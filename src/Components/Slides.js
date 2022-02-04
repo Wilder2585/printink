@@ -4,16 +4,16 @@ import React from 'react';
 
 const Slides = () => {
   return (
-  <div id="carouselExampleControls" class="carousel slide m-20" data-bs-ride="carousel">
+  <div id="carouselExampleControls" class="carousel slide  " data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active" >
-            <img src="guiapantone.jpg" className='d-block m-auto' style={{width: "1800px", height: "350px"}}></img>
+            <img src="imagenes/guiapantone.jpg" className='d-block m-auto' style={{width: "1800px", height: "350px"}}></img>
         </div>
         <div class="carousel-item">
-         <img src="tintas.jpg" className='d-block m-auto' style={{width: "1800px", height: "350px"}}></img>
+         <img src="imagenes/tintas.jpg" className='d-block m-auto' style={{width: "1800px", height: "350px"}}></img>
         </div>
         <div class="carousel-item">
-         <img src="tintas2.jpg"  className='d-block m-auto' style={{width: "1800px", height: "350px"}}></img>
+         <img src="imagenes/tintas2.jpg"  className='d-block m-auto' style={{width: "1800px", height: "350px"}}></img>
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
