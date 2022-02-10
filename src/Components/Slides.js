@@ -4,8 +4,8 @@ import React from 'react';
 
 const Slides = () => {
   return (
-  <div id="carouselExampleControls" class="carousel slide  " data-bs-ride="carousel">
-    <div class="carousel-inner">
+  <div id="carouselExampleControls" class="carousel slide mb-1" data-bs-ride="carousel">
+    <div class="carousel-inner ">
         <div class="carousel-item active" >
             <img src="imagenes/guiapantone.jpg" className='d-block m-auto' style={{width: "1800px", height: "350px"}}></img>
         </div>
